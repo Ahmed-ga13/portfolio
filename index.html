@@ -4,16 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Ahmed Galal - Frontend Developer Portfolio. Experienced in HTML, CSS, JS, Angular.">
+    <meta name="keywords"
+        content="Frontend Developer, Web Developer, Portfolio, Ahmed Galal, Angular, JavaScript, HTML, CSS">
+    <meta name="author" content="Ahmed Galal">
+
     <!-- --------- UNICONS ---------- -->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="preload" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    </noscript>
+
     <!-- --------- SWIPER CSS ---------- -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <!-- --------- CSS ---------- -->
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    </noscript>
+
+    <!-- --------- MAIN CSS ---------- -->
     <link rel="stylesheet" href="assets/css/style.css">
+
     <!-- --------- FAVICON ---------- -->
-    <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/x-icon">
-    <title>Ahmed Galal</title>
+    <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+
+    <title>Ahmed Galal | Frontend Developer</title>
 </head>
+
 
 <body>
     <div class="container">
@@ -369,8 +388,8 @@
                         </div>
                     </div>
                 </div>
-                <img src="assets/images/arrow.webp" alt="Arrow icon" class="arrow"
-                    onclick="location.href='./#contact'" loading="lazy" />
+                <img src="assets/images/arrow.webp" alt="Arrow icon" class="arrow" onclick="location.href='./#contact'"
+                    loading="lazy" />
             </section>
             <!-- -------------- ACHIEVEMENTS BOX ---------------- -->
             <section class="section" id="achievements">
@@ -408,8 +427,8 @@
                             <a href="mailto:ag9200698@gmail.com">
                                 <i class="uil uil-envelope"></i> Email: ag9200698@gmail.com
                             </a>
-                            <a href="tel:+2015565851">
-                                <i class="uil uil-phone"></i> Tel: +20 155 658 51
+                            <a href="tel:+201556585197">
+                                <i class="uil uil-phone"></i> Tel: +20 155 658 5197
                             </a>
                         </div>
                     </div>
@@ -472,14 +491,17 @@
             </div>
         </footer>
     </div>
-    <!-- ----- TYPING JS Link ----- -->
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <!-- ----- SCROLL REVEAL JS Link----- -->
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <!-- ----- SWIPER JS ----- -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <!-- ----- MAIN JS ----- -->
-    <script src="assets/js/main.js"></script>
 </body>
+<!-- ----- TYPING JS Link ----- -->
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js" defer></script>
+
+<!-- ----- SCROLL REVEAL JS Link----- -->
+<script src="https://unpkg.com/scrollreveal" defer></script>
+
+<!-- ----- SWIPER JS ----- -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+
+<!-- ----- MAIN JS (لازم يكون بعد المكتبات التانية) ----- -->
+<script src="assets/js/main.js" defer></script>
 
 </html>
