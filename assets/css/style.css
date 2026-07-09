@@ -54,6 +54,10 @@ html {
 	scroll-behavior: smooth;
 }
 
+main {
+	overflow-x: hidden;
+}
+
 @media (prefers-reduced-motion: reduce) {
 	html {
 		scroll-behavior: auto;
