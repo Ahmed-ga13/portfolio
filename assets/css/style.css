@@ -1728,6 +1728,19 @@ footer {
 }
 
 @media only screen and (max-width: 540px) {
+	.wrapper {
+		padding-inline: 6vw;
+	}
+
+	.timeline-container {
+		padding: 0;
+	}
+
+	.timeline-item {
+		padding-left: 55px;
+		padding-right: 0px;
+	}
+
 	.hero-name {
 		font-size: 30px;
 	}
